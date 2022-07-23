@@ -14,6 +14,7 @@ public class Main extends Application {
 			VBox root = new VBox();
 			root.getChildren().add(new Label("Youssef's label"));
 			root.getChildren().add(new Label ("Youssef's branch"));
+			root.getChildren().add(new Label("Achraf's branch"));
 			Scene scene = new Scene(root,400,400);
 			//scene.getStylesheets().add(getClass().getResource("application.css").toExternalForm());
 			primaryStage.setTitle("Achraf's Project");
